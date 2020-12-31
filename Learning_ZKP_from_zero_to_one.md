@@ -1,5 +1,6 @@
 ZKP (Zero knowledge proof) is an interesting technology to prove something without reveal it.
-Here are some tips from new learners of ZKP with no backgroup of cryptography：
+
+Here are some tips from new learners of ZKP with no backgroud of cryptography：
 * Number theory and elliptic curve cryptography：see the book <Elliptic Curves Number Theory and Cryptography（second edition）>.
 
 * Useful math software: sageMath, or Magma. There's an online edition for Magma [Magma Calculator](http://magma.maths.usyd.edu.au/calc/).
@@ -12,7 +13,7 @@ Here are some tips from new learners of ZKP with no backgroup of cryptography：
 
 * Group: pairing-friendly group, unknown order group, known order group, etc.
 
-* Cryptography computational assumption: the assumption is usually a mathematical problem that is hard to solve. The main computational assumptions in cryptography: discrete logarithm problem、factoring、pairing、lattice, etc.
+* Cryptography computational assumption: the assumption is usually a mathematical problem that is hard to solve. The main computational assumptions in cryptography: discrete logarithm problem、factoring、pairing、lattice, etc.  Read the 2013 report [Final Report on Main Computational Assumptions in Cryptography](https://www.ecrypt.eu.org/ecrypt2/documents/D.MAYA.6.pdf), or my blog [主流的密码学 hardness/computational 假设](https://blog.csdn.net/mutourend/article/details/107371612) for more info.
 
 * Program language: C++, Rust, Go, Python, Haskell, etc. Many recent papers about ZKP are realized with Rust. Rust is designed for performance and safety, especially safe concurrency, and achieves memory safety without garbage collection. If you want to code for ZKP, Rust is worth learning.
 
